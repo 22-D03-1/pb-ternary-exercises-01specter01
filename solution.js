@@ -12,13 +12,13 @@ const speed =
 console.log("2)", speed);
 
 //3
-const age = 21;
+const age = 12;
 const drinking = age <= 16 ? "serve butter beer" : "serve beer";
 console.log("3)", drinking);
 
 //4
-const isStudent = 12;
-const ticket = isStudent <= 14 ? "Ticket costs €5,00" : "Ticket costs €12,00";
+const isStudent = true;
+const ticket = isStudent ? "Ticket costs €5,00" : "Ticket costs €12,00";
 console.log("4)", ticket);
 
 //5
