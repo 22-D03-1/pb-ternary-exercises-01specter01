@@ -28,11 +28,13 @@ console.log("5)", output);
 
 //6
 const num1 = 30;
+const answer1 = num1 % 2 === 0 ? `6) ${num1} is even ` : `${num1} is odd`;
+console.log(answer1);
+
 const num2 = 939;
+const answer2 = num2 % 2 === 0 ? `6) ${num2} is even ` : `${num2} is odd`;
+console.log(answer2);
+
 const num3 = 40.9;
-const even1 = num1 ? num1 + " is even" : num1 + " is odd";
-const even2 = num2 ? num2 + " is odd" : num2 + " is even";
-const even3 = num3 ? num3 + " null" : num4 + " null";
-console.log("6)", even1);
-console.log("6)", even2);
-console.log("6)", even3);
+const answer3 = num3 % 2 === 0 ? `6) ${num3} is even ` : `${num3} is odd`;
+console.log(answer3);
